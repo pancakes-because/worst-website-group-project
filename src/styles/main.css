@@ -1,0 +1,125 @@
+/* hazel's styles for website cursor and diya's styles for html tags */ 
+
+/* the import code to make the styling on john's form work */ 
+
+@import "form.css";
+@import "ads.css";
+
+
+/* annoying gif as the background of our website; should be tiled on the webpage and make things unreadable*/ 
+
+body {
+    
+    background-image: url("https://media.giphy.com/media/SwJ7tp8rs0lxRLEQ4c/giphy-downsized.gif"); 
+    cursor: url(../pictures/newcursor.png), auto;
+}
+
+/* this makes john's form smaller and moves it to the middle */ 
+
+.flights {
+
+    /*display: block; 
+    margin-left: auto; 
+    margin-right: auto; */
+    width: 400px;
+    padding: 40px; 
+
+}
+
+/* this makes vanessa's login fields centered near the bottom, so it's harder for people to find initially */ 
+
+.login {
+
+    /* float: right;  */ /* if we want it to go to the right */ 
+
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    color: white;
+    text-shadow: 1px 1px 5px gray;
+    text-align: center; 
+
+}
+
+/* gives the website name a color and shadow */ 
+
+
+h4 {
+
+    /* if we want the website name to be cramped in a small space */ 
+    /* width: 100px;  */
+    /* overflow-wrap: break-word;  */
+
+    font-size: 27px; 
+    text-align: center; 
+    color: white; 
+    text-shadow: 0px 0px 1px #AB02F7;
+}
+
+/* gives the "hidden" mesasge under the website title a color and shadow */ 
+/* may also affect some of vanessa's text for the login form? */ 
+
+p {
+    color: #4D00A7; 
+    text-shadow: 0px 0px 1px black; 
+}
+
+.nav_bar { 
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+#copyright {
+    color: white;
+    text-shadow: 1px 1px 5px gray;
+    font-size: 20px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+    border-radius: 5px;
+}
+
+#submitButton {
+    margin-top: 10px;
+    background-color: white;
+    width: 150px; 
+    height: 25px;
+}
+
+.createUser {
+    color: white;
+    text-shadow: 1px 1px 5px gray;
+}
+
+.ad_content {
+    height: 720px;
+    width: 250px; 
+    align-items: center;
+    text-decoration: none;
+    background-color: #000;
+}
+
+.ad_2_content {
+    height: 720px;
+    width: 250px; 
+    align-items: center;
+    background-color: #000;
+    padding: 20px;
+}
+
+
+.ad_flight {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
